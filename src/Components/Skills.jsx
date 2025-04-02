@@ -12,7 +12,7 @@ function Skills() {
           <motion.div
             initial={{ opacity: 0, translateX: "100%" }}
             whileInView={{ opacity: 1, translateX: "0" }}
-            transition={{ duration: 1.5 }}
+            transition={{ duration: 2 }}
             viewport={{ once: true }}
             className="box flex justify-evenly align-middle "
           >
@@ -77,7 +77,7 @@ function Skills() {
         <motion.div
           initial={{ opacity: 0, translateX: "-100%" }}
           whileInView={{ opacity: 1, translateX: "0" }}
-          transition={{ duration: 1.5 }}
+          transition={{ duration: 2 }}
           viewport={{ once: true }}
           className="box flex justify-evenly  mt-5"
         >
