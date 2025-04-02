@@ -73,7 +73,7 @@ function Home() {
 
         <div className="right mr-[10rem]">
           <img
-            src="img.png"
+            src="https://res.cloudinary.com/dnjkwg0lj/image/upload/v1743583212/Profile_picture_1_bjkg7a.png"
             alt=""
             className="h-[20rem] w-[20rem] rounded-[50%]"
           />
