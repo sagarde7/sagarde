@@ -8,7 +8,7 @@ import Contact from "./Components/Contact";
 
 function App() {
   return (
-    <div className="bg-gray-900 text-white font-serrif">
+    <div className="bg-gray-900 text-white font-poppins">
       <Navbar />
       <section id="home" className="pt-1"><Home /></section>
       <section id="about" className="pt-5"><About /></section>
