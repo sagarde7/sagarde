@@ -4,8 +4,8 @@ import { motion } from "motion/react";
 function Skills() {
   return (
     <>
-      <div className="skills h-[95vh] overflow-x-hidden mb-[5vh] hover:cursor-pointer">
-        <div className="title mt-[5vh] mb-5  text-center text-4xl underline ">
+      <div className="skills h-[95vh] overflow-x-hidden my-10 ">
+        <div className="title font-boldmt-[5vh] mb-5 font-bold text-center text-4xl underline ">
           Technical Skills
         </div>
         <div>
@@ -17,7 +17,7 @@ function Skills() {
             className="box flex justify-evenly align-middle "
           >
             <div className="skill">
-              <div className="box border-2 p-2 rounded-2xl hover:scale-105">
+              <div className="box border-2 p-2 rounded-2xl hover:scale-105  hover:cursor-pointer">
                 <img
                   className="h-[8rem] w-[10rem] "
                   src="https://res.cloudinary.com/dnjkwg0lj/image/upload/v1743252058/gepv2xpcyznqivpmzlr4.png"
@@ -26,7 +26,7 @@ function Skills() {
               </div>
             </div>
             <div className="skill">
-              <div className="box border-2 p-2 rounded-2xl hover:scale-105">
+              <div className="box border-2 p-2 rounded-2xl hover:scale-105 hover:cursor-pointer">
                 <img
                   className="h-[8rem] w-[10rem] "
                   src="https://res.cloudinary.com/dnjkwg0lj/image/upload/v1743252058/atjeksyhyos7qomz8p8i.png"
@@ -37,7 +37,7 @@ function Skills() {
               </div>
             </div>
             <div className="skill">
-              <div className="box border-2 p-2 rounded-2xl hover:scale-105">
+              <div className="box border-2 p-2 rounded-2xl hover:scale-105 hover:cursor-pointer">
                 <img
                   className="h-[8rem] w-[10rem] "
                   src="https://res.cloudinary.com/dnjkwg0lj/image/upload/v1743252058/rejv51mk4jvgtiwd4ila.png"
@@ -50,7 +50,7 @@ function Skills() {
               </div>
             </div>
             <div className="skill">
-              <div className="box border-2 p-2 rounded-2xl hover:scale-105">
+              <div className="box border-2 p-2 rounded-2xl hover:scale-105 hover:cursor-pointer">
                 <img
                   className="h-[8rem] w-[10rem] "
                   src="https://res.cloudinary.com/dnjkwg0lj/image/upload/v1743252059/fm9awe0l3rujdalwixrv.png"
@@ -61,7 +61,7 @@ function Skills() {
               </div>
             </div>
             <div className="skill">
-              <div className="box border-2 p-2 rounded-2xl hover:scale-105">
+              <div className="box border-2 p-2 rounded-2xl hover:scale-105 hover:cursor-pointer">
                 <img
                   className="h-[8rem] w-[10rem] "
                   src="https://res.cloudinary.com/dnjkwg0lj/image/upload/v1743251769/xywzs3nmhvfvdkbdzwi6.png"
@@ -82,7 +82,7 @@ function Skills() {
           className="box flex justify-evenly  mt-5"
         >
           <div className="skill">
-            <div className="box border-2 p-2 rounded-2xl hover:scale-105">
+            <div className="box border-2 p-2 rounded-2xl hover:scale-105 hover:cursor-pointer">
               <img
                 className="h-[8rem] w-[10rem] "
                 src="https://res.cloudinary.com/dnjkwg0lj/image/upload/v1743252522/zayyabalenh7r8zlbtcn.png"
@@ -93,7 +93,7 @@ function Skills() {
           </div>
 
           <div className="skill">
-            <div className="box border-2 p-2 rounded-2xl hover:scale-105">
+            <div className="box border-2 p-2 rounded-2xl hover:scale-105 hover:cursor-pointer">
               <img
                 className="h-[8rem] w-[10rem] "
                 src="https://res.cloudinary.com/dnjkwg0lj/image/upload/v1743252522/g9crfnghvmci72553pli.png"
@@ -104,7 +104,7 @@ function Skills() {
           </div>
 
           <div className="skill">
-            <div className="box border-2 p-2 rounded-2xl hover:scale-105">
+            <div className="box border-2 p-2 rounded-2xl hover:scale-105 hover:cursor-pointer">
               <img
                 className="h-[8rem] w-[10rem] "
                 src="https://res.cloudinary.com/dnjkwg0lj/image/upload/v1743252843/xlrpgwceomyynqdjaagk.png"
@@ -115,7 +115,7 @@ function Skills() {
           </div>
 
           <div className="skill">
-            <div className="box border-2 p-2 rounded-2xl hover:scale-105">
+            <div className="box border-2 p-2 rounded-2xl hover:scale-105 hover:cursor-pointer">
               <img
                 className="h-[8rem] w-[10rem] "
                 src="https://res.cloudinary.com/dnjkwg0lj/image/upload/v1743252522/daaeksbcmwnykddoyft3.png"
@@ -125,7 +125,7 @@ function Skills() {
             </div>
           </div>
           <div className="skill">
-            <div className="box border-2 p-2 rounded-2xl hover:scale-105">
+            <div className="box border-2 p-2 rounded-2xl hover:scale-105 hover:cursor-pointer">
               <img
                 className="h-[8rem] w-[10rem] "
                 src="https://res.cloudinary.com/dnjkwg0lj/image/upload/v1743252522/ihylyinhh3knoghzkpjo.png"
@@ -143,10 +143,10 @@ function Skills() {
           className="box flex justify-evenly  mt-5"
         >
           <div className="skill">
-            <div className="box border-2 p-2 rounded-2xl hover:scale-105">
+            <div className="box border-2 p-2 rounded-2xl hover:scale-105 hover:cursor-pointer">
               <img
                 className="h-[8rem] w-[10rem] "
-                src="https://res.cloudinary.com/dnjkwg0lj/image/upload/v1743252522/hr5gejh8h0fawivmgxpw.png"
+                src="https://res.cloudinary.com/dnjkwg0lj/image/upload/v1743688870/cppp-removebg-preview_bttaaa.png"
                 srcset=""
               />
               <div className="text text-center text-xl mt-0.5">C++</div>

@@ -27,14 +27,16 @@ function Home() {
                 fontWeight: "bold"
               }}
               cursorColor="white"
-              multiText={["Web Developer", "& Problem Solver"]}
+              multiText={["Web Developer","", "& Problem Solver"]}
               typeSpeed={100}
               deleteSpeed={50}
               autoStart={true}
               multiTextLoop={true}
             />
           </div>
-          <div className="icons text-2xl flex gap-[2.2rem] mt-5">
+          <div className="desc text-xl my-4.5">Skilled Web Developer and AI Enthusiast.
+           Transforming ideas into reality</div>
+          <div className="icons text-2xl flex gap-[1.8rem] mt-5">
             <a
               href="https://www.linkedin.com/in/sagarde"
               target="_blank"

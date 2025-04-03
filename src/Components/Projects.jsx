@@ -5,7 +5,8 @@ function Projects() {
   return (
     <>
       <motion.div className="projects h-[85vh] z-0 ">
-        <div className="title mt-[15vh] text-4xl text-center underline mb-10">My Projects</div>
+        <div className="title mt-[15vh] text-4xl text-center underline
+         font-bold mb-10">My Projects</div>
         <div className="container flex justify-around mt-5">
           <motion.div className="project" whileHover={{ scale: 1.05 }}>
             <div className="box h-[27rem] w-[30rem] border-2 rounded-2xl overflow-hidden relative">
