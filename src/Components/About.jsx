@@ -14,12 +14,10 @@ function About() {
           <motion.div 
           initial={{ opacity: 0, translateX: "100%" }}
           whileInView={{ opacity: 1, translateX: "0" }}
-          transition={{ duration: 1.5 }}
+          transition={{ duration: 2 }}
           viewport={{ once: true }}
           className="content text-xl  text-justify  p-[5rem]">
-            <div 
-            
-            className="para1 my-4">
+          <div className="para1 my-4">
           I'm a third-year student at Chandigarh University with a deep passion
           for Data Structures & Algorithms (DSA) and Web Development. I love
           tackling challenges, building solutions from scratch, and crafting
