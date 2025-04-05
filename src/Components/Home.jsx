@@ -24,19 +24,21 @@ function Home() {
             <Typewriter
               textStyle={{
                 fontSize: "5rem",
-                fontWeight: "bold"
+                fontWeight: "bold",
               }}
               cursorColor="white"
-              multiText={["Web Developer","", "& Problem Solver"]}
+              multiText={["Web Developer", "Problem Solver", "Tech Enthusiast"]}
               typeSpeed={100}
               deleteSpeed={50}
               autoStart={true}
               multiTextLoop={true}
             />
           </div>
-          <div className="desc text-xl my-4.5">Skilled Web Developer and AI Enthusiast.
-           Transforming ideas into reality</div>
-          <div className="icons text-2xl flex gap-[1.8rem] mt-5">
+          <div className="desc text-xl my-4.5">
+            Skilled Web Developer and AI Enthusiast. Transforming ideas into
+            reality
+          </div>
+          <div className="icons text-2xl flex gap-[2.2rem] mt-5">
             <a
               href="https://www.linkedin.com/in/sagarde"
               target="_blank"
@@ -73,13 +75,22 @@ function Home() {
           </motion.button>
         </div>
 
-        <div className="right mr-[10rem]">
+        <motion.div
+        animate={{
+          y: [0, 15, 0],
+        }}
+        transition={{
+          duration: 5,
+          repeat: Infinity,
+          ease: "easeInOut",
+        }}
+        className="right mr-[10rem] bg-gray-900">
           <img
             src="https://res.cloudinary.com/dnjkwg0lj/image/upload/v1743583212/Profile_picture_1_bjkg7a.png"
             alt=""
-            className="h-[20rem] w-[20rem] rounded-[50%]"
+            className="h-[20rem] w-[20rem] rounded-[50%] bg-transparent"
           />
-        </div>
+        </motion.div>
       </motion.div>
     </>
   );
