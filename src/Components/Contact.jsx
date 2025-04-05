@@ -11,7 +11,7 @@ function Contact() {
           Feel Free To Contact Me
         </div>
         <div className="form  text-center mt-[3vh] text-2xl">
-          <form action="https://formspree.io/f/xanedbbz" method="POST">
+          <form action="https://submit-form.com/oMg8VGlIY" method="POST">
             <div className="email">
               <label>
                 Your email:
